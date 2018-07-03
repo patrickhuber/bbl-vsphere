@@ -1,0 +1,33 @@
+{
+	"version": 14,
+	"bblVersion": "dev",
+	"iaas": "vsphere",
+	"id": "058a1960-c8de-42a8-4bee-e480d40a8f6d",
+	"envID": "lab",
+	"noDirector": false,
+	"aws": {},
+	"azure": {},
+	"gcp": {},
+	"vsphere": {},
+	"openstack": {},
+	"jumpbox": {
+		"url": "192.168.1.201:22"
+	},
+	"bosh": {
+		"directorName": "bosh-lab",
+		"directorUsername": "admin",
+		"directorPassword": "yu8ubl8r0x9tf17aog7g",
+		"directorAddress": "https://192.168.1.202:25555",
+		"directorSSLCA": "-----BEGIN CERTIFICATE-----\nMIIDFDCCAfygAwIBAgIRAKuTvu2e2stbUfuIAYMXvywwDQYJKoZIhvcNAQELBQAw\nMzEMMAoGA1UEBhMDVVNBMRYwFAYDVQQKEw1DbG91ZCBGb3VuZHJ5MQswCQYDVQQD\nEwJjYTAeFw0xODA3MDMwNDE5MDNaFw0xOTA3MDMwNDE5MDNaMDMxDDAKBgNVBAYT\nA1VTQTEWMBQGA1UEChMNQ2xvdWQgRm91bmRyeTELMAkGA1UEAxMCY2EwggEiMA0G\nCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC0WNor063SHL+N7D/13MHYPc3/5QD7\niFm3RzI5Fvk6gGQjigiiE5GM8t6GI5zsxS8FsyrF/hvo6WxY2YsXxPH2uLDmIgjK\nXu/jQ3WscwLnSvBnU4PFz2xwSbyNiNM5Uq5e5jYvt/MzRc/KmLzBkWe8ryyzp54h\nDduwcOwNhLdV3inI4lyl1l3QJjHbPGO6x9bZu7GZ6jKc82zSi0SV++IPbojsk1OG\nsx6zy5pfTWp9q5i0c9OITcc8mZf+rqlHjjxqVaT3APvHJXkNCvghD1/so3QhxC6e\nBFqi8yimvCd4GpE45gXVE+wV8rhJy3e7ut+lSITe4sic4pxleVkq60dlAgMBAAGj\nIzAhMA4GA1UdDwEB/wQEAwIBBjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEB\nCwUAA4IBAQADO5h2RComP9hEqEYK//Ay1VwtEMJP65l/+nYb7SUVO9d65W7qgbYF\nBFMuC33B14XA9x7AWaRMFvedMyXxxp8kE39wz2HOi536vfLFbtHsO2GU/4WD16Bg\nb35Y2SivQm0d91PztI5giEkMbanwpY8XER6mkBkN+YpL5ZyBvkzxV5nFbrniB3R5\n1flwSslL3OVxqy5AUsATYJ9unnUlaBn9dCcu+xWc/vNjDEmW3qV9NaCYuhXblYNU\ndhaX0ckUzjlV8MF5MANJzn9Z0AMZO65dEmFSLBWgOR7OCSvNR0OJfee8oxAKWsZ/\nfy8CI4tnS5Z1Td+STa1fvopruvr4Xwdb\n-----END CERTIFICATE-----\n",
+		"directorSSLCertificate": "-----BEGIN CERTIFICATE-----\nMIIDQTCCAimgAwIBAgIQW53pPnLimsWsb1LwDTegqzANBgkqhkiG9w0BAQsFADAz\nMQwwCgYDVQQGEwNVU0ExFjAUBgNVBAoTDUNsb3VkIEZvdW5kcnkxCzAJBgNVBAMT\nAmNhMB4XDTE4MDcwMzA0MTkwNFoXDTE5MDcwMzA0MTkwNFowPjEMMAoGA1UEBhMD\nVVNBMRYwFAYDVQQKEw1DbG91ZCBGb3VuZHJ5MRYwFAYDVQQDEw0xOTIuMTY4LjEu\nMjAyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4tdWXFbzZgOq8iUN\nLFhLIuArv5CiuUeRbe+jMTeNeF0Rn7aoiDNPfWQf72FOCKdW0KXgZQo71rF7vtSE\nhRA340snjzG6a2lsrXfqOxL1lgldwNFycQvt6eOf3dm+/XgOo5sAzeoCrcR6KW3V\neuFiPYyBQo5JgpBlqhLAN+uo55HBX0Mdnk/egZ7Rx01vkjzr5fNUxUJaHoeqVjZ1\nesLq/LfstsQHSIeb8zViM3J0tcUYepP7/3UQAcffS+IxyEadzYo1iSNfHQ+Lal7Z\n1/xIqP8dY6QJi1hz1nFMESCDIElIv74C3zfkiDwAI2l+YmngOCSJfJlXgkcKG1Ig\nyf91wQIDAQABo0YwRDAOBgNVHQ8BAf8EBAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUH\nAwEwDAYDVR0TAQH/BAIwADAPBgNVHREECDAGhwTAqAHKMA0GCSqGSIb3DQEBCwUA\nA4IBAQAgAruWFziltnDoYVZPd8hW8jA1LkXnQnKlT5WO27xksFL8K61f74v9vhnG\nmTf40tFmh4b2OwVTiej2Y6zvMKNihSaJBiINnolbvv2cLOkN8rj7Jy3UXAjv+LV5\ncOTGuG+CsbEGKTmnrY1QAZAoUogD5CZPEbsEnmTlIN06g4sRprO4srR2PZR6P0Kz\nW0/LLFG4iZmd3zhbA+kN4yLHe3HxrqgF/bCE2TKrzZGhDv1sa8CPxKeI37Hgbvr2\nn04zHRIPiSsh/+w5lqAFelaqeGDAxG5VrKroP/1tt1Eue9qAOunxyQgTzkJtiCm0\n4SFPeqbomwz1wlhsWJtz9yjTR9cr\n-----END CERTIFICATE-----\n",
+		"directorSSLPrivateKey": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEA4tdWXFbzZgOq8iUNLFhLIuArv5CiuUeRbe+jMTeNeF0Rn7ao\niDNPfWQf72FOCKdW0KXgZQo71rF7vtSEhRA340snjzG6a2lsrXfqOxL1lgldwNFy\ncQvt6eOf3dm+/XgOo5sAzeoCrcR6KW3VeuFiPYyBQo5JgpBlqhLAN+uo55HBX0Md\nnk/egZ7Rx01vkjzr5fNUxUJaHoeqVjZ1esLq/LfstsQHSIeb8zViM3J0tcUYepP7\n/3UQAcffS+IxyEadzYo1iSNfHQ+Lal7Z1/xIqP8dY6QJi1hz1nFMESCDIElIv74C\n3zfkiDwAI2l+YmngOCSJfJlXgkcKG1Igyf91wQIDAQABAoIBAQDgNsyL1P4cVX/A\nfFL7BAKwZDeZz9KnpE/hBD6fxTM2R3fGD/uhNGZboH3YVKuW7iBnd63G8UiYOzH/\nO3wJMjCrn3tolFSZGslq5N5GqcTJGlTq45tkldABoRZBaJrZWrPNjsZKwgUH0O6W\nyJN8NA6wm5KgQJf0T9nNM19/ZpW63ICBt4fGX+bVyuWqwVDrATY+KXQCLXU2zqL8\nb4P8eni/h8h0/G0QFtX3kG8aKqJtL1F6xpw7UWYsxhWXbLB+cy4q/PHFSrEbHcvl\nyDbaBJw2540yTXVJnyosB1i1VaIewTz1LWqC5lyaBIAWnEtO0x0h9B0J3B0PGAkW\n1ysaxKgBAoGBAPRa9+qE+C2lmiHy9cPicPyajDsQX2XB5NafbChllgpnYSEFH2+H\nP93bCnceg/9AX8TbOq9G7JEd14uEHgdLG2YNcEft3+5/abHSHI/J+rzSTqyRVvNc\nt1JTAnRf0B0KbEhApBxJ5xxjXojArtRhadHzEbpt2VhgV+NYpWzo64PhAoGBAO2m\ntAwN0+t76GCL8E3z74+IfEQ1GR1VsGghKsZQIwAcsQjmGQZ0iqAS4NsfEsBTQHve\na/b6ut6NAq3AqNeqzKchueByDvjdQ07Nun9Zk9jLCChyJboMwF419e7zgAep5fdT\niIZyWF0XgtLkkLfi/MSTzrBd5zZUKMUu4NRHEi3hAoGBAOmlphKHzGqRQ10c3OTN\nu6299UJwuFcrXC3gSGIkKKCQEy6ooFNbJrVzQYF/G0XRfwFTgryge4mS2ExeKvxc\nU7l0Nh2BFbMN/7l5J7hRsEAmc/XMDzEqQVwlZV5zUyLBmaJItOMbwzHAzl7CpykK\ncE3BNv1lFgLMNJ19YMhPuwrhAoGASg7kFsmMW9ruLIAPb8tvwRPwXbUKUYjtg1Wq\npcg9UACg7rv92nQg6wdXCRHi3wpSkwdaL8osx8O7rPfX5fV09zRcX2RL5CPXoMwd\nrSf2Gd4Teb8woIzuua0pKcC6CilY370pU3R4svHrs9rEenmC+aNyCqYIsnaBigk0\nyRIoySECgYBNk22PELL9I4bMbl8pBmDxp/JD8GoELCsqXuS5bNpHEBQyqB4bNsHs\nymGYSqnDu+Vbrp1hBCqYIIaM7VkTuWScXIwJZ9s+Ayt9WYEWobmSruzCy+f6kEOn\nDK67XJjn28fTWA8H9tDApO0FR3PBr0aaqni2HYfisTREFlz8ZC7F0Q==\n-----END RSA PRIVATE KEY-----\n"
+	},
+	"tfState": "",
+	"lb": {
+		"type": "",
+		"cert": "",
+		"key": "",
+		"chain": ""
+	},
+	"latestTFOutput": "\n\u001b[0m\u001b[1m\u001b[32mTerraform has been successfully initialized!\u001b[0m\u001b[32m\u001b[0m\n\u001b[0m\u001b[32m\nYou may now begin working with Terraform. Try running \"terraform plan\" to see\nany changes that are required for your infrastructure. All Terraform commands\nshould now work.\n\nIf you ever set or change modules or backend configuration for Terraform,\nrerun this command to reinitialize your working directory. If you forget, other\ncommands will detect it and remind you to do so if necessary.\u001b[0m\n\u001b[0m\u001b[1m\u001b[32m\nApply complete! Resources: 0 added, 0 changed, 0 destroyed.\u001b[0m\n\u001b[0m\u001b[1m\u001b[32m\nOutputs:\n\ndirector__internal_ip = 192.168.1.202\ndirector_name = bosh-lab\nexternal_ip = 192.168.1.201\ninternal_cidr = 192.168.1.0/24\ninternal_gw = 192.168.1.1\ninternal_reserved_ips = [\n    192.168.1.0-192.168.1.200\n]\ninternal_static_ips = [\n    192.168.1.200-192.168.1.210\n]\njumpbox__internal_ip = 192.168.1.201\njumpbox_url = 192.168.1.201:22\nnetwork_name = VM Network\nvcenter_cluster = homelab_cl1\nvcenter_dc = homelab\nvcenter_disks = bbl_disks\nvcenter_ds = DAS\nvcenter_ip = 192.168.1.110\nvcenter_rp = homelab_rp1\nvcenter_templates = bbl_templates\nvcenter_vms = bbl_vms\u001b[0m\n"
+}

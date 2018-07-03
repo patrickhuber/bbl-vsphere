@@ -1,0 +1,19 @@
+director_name: bosh-lab
+external_ip: 192.168.1.201
+internal_cidr: 192.168.1.0/24
+internal_gw: 192.168.1.1
+internal_ip: 192.168.1.202
+internal_reserved_ips:
+- 192.168.1.0-192.168.1.200
+internal_static_ips:
+- 192.168.1.200-192.168.1.210
+jumpbox_url: 192.168.1.201:22
+network_name: VM Network
+vcenter_cluster: homelab_cl1
+vcenter_dc: homelab
+vcenter_disks: bbl_disks
+vcenter_ds: DAS
+vcenter_ip: 192.168.1.110
+vcenter_rp: homelab_rp1
+vcenter_templates: bbl_templates
+vcenter_vms: bbl_vms

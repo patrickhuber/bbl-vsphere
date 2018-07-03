@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# exit on error
+set -e
+
+# set the DIR variable to the scripts location
+# this makes it so we aren't dependent on the current directory 
+# and instead are dependent on this scripts location which is more stable
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# load in the global environment variables
+source $DIR/exports.sh
+
+# load the plan patches
+cp -r $DIR/patches/lab/* $BBL_STATE_DIRECTORY/
+
+# run bbl
+bbl-dev plan $@

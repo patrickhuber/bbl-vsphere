@@ -1,0 +1,6 @@
+no-commit/
+state/bosh-deployment
+state/jumpbox-deployment
+state/cloud-config
+state/vars/jumpbox-vars-store.yml
+state/vars/director-vars-store.yml
